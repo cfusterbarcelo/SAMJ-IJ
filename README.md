@@ -34,8 +34,8 @@ This are the steps to install a model:
 1. Open the SAMJ Annotator plugin as described above.
 2. Choose a SAM model from the list provided within the plugin.
 3. Click on the `Install` button next to the selected model.
-4. Wait for the installation process to complete. This may take some time depending on the model size, your computer and your internet connection.
-> **Comment:** Maybe we could add a section somewhere with more details on how long can take depending on the model and some guideance on which model to choose depending on your comptuer specs.
+4. Wait for the installation process to complete. This may take some time, depending on the model size, your computer, and your internet connection.
+> **Comment:** Maybe we could add a section somewhere with more details on how long it can take depending on the model and some guidance on which model to choose depending on your computer specs.
 
 ## Annotating Images
 
@@ -49,8 +49,8 @@ Once you have installed a model, follow these steps to annotate your image:
    - `Points`: Click to mark points on the image. Hold `Ctrl` to select multiple points for a single object.
    - `Brush`: Paint freeform ROIs.
 
-   Optionally, untick the `Add to ROI Manager` checkbox if you don't want your annotations to be added to the Fiji ROI Manager automatically.
-5. **Annotate**: Annotate as many objects as needed. With each ROI drawn using one of the three tools, the installed SAM version will run and the object will be annotated.
+   Optionally, untick the `Add to ROI Manager` checkbox if you do not want your annotations to be added to the Fiji ROI Manager automatically.
+5. **Annotate**: Annotate as many objects as needed. With each ROI drawn using one of the three tools, the installed SAM version will run, and the object will be annotated.
 6. **Manage Annotations**: All annotations will be sent to the ROI Manager (if the checkbox is ticked), where you can perform various operations as allowed by Fiji's ROI Manager functionality.
 
 ## Saving Annotations
@@ -59,7 +59,7 @@ To save your annotations:
 
 1. Open the ROI Manager in Fiji.
 2. Select the annotations you wish to save.
-3. Choose `More > Save` to save the selected annotations as a roi.
+3. Choose `More > Save` to save the selected annotations as an ROI.
 4. Choose a location and name for the file and click `Save` to save the annotations as a .roi file.
 > **Comment:** Can we use the `Edit > Selection > Create Mask` to save the annotations as a mask? This would be more useful for the user, as the .roi file is not very useful for further analysis.
 
